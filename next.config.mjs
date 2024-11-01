@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    env: {
+        MONGO_URI: "your_db_url"
+    },
     images: {
         remotePatterns: [
             {
